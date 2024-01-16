@@ -4,8 +4,16 @@ import { motion } from "framer-motion";
 
 import styles from "../styles";
 import { navVariants } from "../utils/motion";
+import { ClerkProvider, SignInButton, auth } from "@clerk/clerk-react";
 
-const Navbar = () => (
+const CLERK_KEY = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
+
+
+
+function Navbar() {
+
+  return(
+  <ClerkProvider publishableKey={CLERK_KEY}>
   <motion.nav
     variants={navVariants}
     initial="hidden"
@@ -20,15 +28,15 @@ const Navbar = () => (
         className="w-[24px] h-[24px] object-contain"
       />
       <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-        Gameverse
+        Thrive Trading
       </h2>
-      <img
-        src="/menu.svg"
-        alt="menu"
-        className="w-[24px] h-[24px] object-contain"
-      />
+      <div className="text-white"> 
+      <SignInButton />
+      </div>
     </div>
   </motion.nav>
+  </ClerkProvider>
 );
+ };
 
 export default Navbar;

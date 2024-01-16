@@ -25,13 +25,12 @@ const Feedback = () => {
               Helena
             </h4>
             <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white ">
-              Founder | Gameversus
+              Founder | Abhishek
             </p>
           </div>
           <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white ">
-            “With the development of today's technology, gameverse is very
-            useful for today's recreation, or can be called web 3.0. by using
-            gameverse you can use it as anything”
+            “Duis aute irure dolor in reprehenderit in voluptate velit 
+            esse cillum dolore eu fugiat nulla pariatur.”
           </p>
         </motion.div>
         <motion.div

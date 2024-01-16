@@ -16,21 +16,20 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Gameversus" textStyles="text-center" />
+      <TypingText title="| About Thrive Trading" textStyles="text-center" />
       <motion.p
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Gameverse </span>
-        is a new thing in the future, where you can enjoy the virtual world by
-        feeling like it's really real, you can feel what you feel in this
-        Gameverse world, because this is really the madness of the Gameverse of
-        today, using only
+        <span className="font-extrabold text-white">Thrive Trading </span>
+        Lorem Ka Ipsum
         <span className="font-extrabold text-white"> VR </span>
         devices you can easily
         <span className="font-extrabold text-white"> explore </span>
-        the Gameverse world you want, turn your dreams into reality. Let's
-        explore the madness of the Gameverse by scrolling down
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        
       </motion.p>
       <motion.img
         variants={fadeIn("up", "tween", 0.3, 1)}
